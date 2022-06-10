@@ -173,7 +173,8 @@ const Explanation = () => {
 
       <p>
         On fetching / submission of the form the input values are be added to the url as query
-        params. The page input automatically submits the form on change (intended behavior).
+        params. The page input dropdown automatically submits the form on change (intended
+        behavior).
       </p>
 
       <p>
