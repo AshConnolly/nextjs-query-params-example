@@ -1,6 +1,5 @@
 /* eslint-disable no-console */
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import Link from 'next/link'
 import router, { useRouter } from 'next/router'
 import { ChangeEvent, FormEvent, useEffect, useState } from 'react'
 
@@ -64,7 +63,6 @@ const Index = () => {
 
   // handle fetch on page dropdown change
   useEffect(() => {
-    console.log('pageNumber: ', pageNumber)
     setIsSubmitting(true)
     fetchDataAndMaybeUpdateUrl({ pageNumber, searchQuery }).then(res => {
       setResults(res)
