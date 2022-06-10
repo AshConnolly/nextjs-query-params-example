@@ -1,5 +1,7 @@
 /* eslint-disable no-console */
 /* eslint-disable @typescript-eslint/no-explicit-any */
+/* empty line to keep shared github link highlighting the correct code blocks :D */
+
 import router, { useRouter } from 'next/router'
 import { ChangeEvent, FormEvent, useEffect, useState } from 'react'
 
