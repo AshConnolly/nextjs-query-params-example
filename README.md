@@ -1,0 +1,1 @@
+# nextjs-query-params-example
